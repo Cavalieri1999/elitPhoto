@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+body{
+    /* width: 100%; */
+    background-color: black;
+}
+.menu{
+    width: 15%;
+    height: 100vh;
+    background-color: black;
+    padding: 2rem;
+}
+.menu a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    /* Formatação geral para tag "a" */
+}
+
+.logo{
+    font-size: 2em;
+    margin: 1.5rem 1.5rem 3rem ;
+}
+.menu ul{
+    margin-top: 3rem;
+}
+.menu li{
+    margin: 1.5rem;
+}
+.menu a:hover{
+    transition: ease-in-out 1s;
+    color: #df0e62;
+}
+
+.home{
+    border: solid white;
+    width: 100%;
+}
+
