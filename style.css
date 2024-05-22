@@ -89,3 +89,42 @@ body {
     transition: ease-in-out 1s;
     transform: scale(1.1);
 }
+
+.carrossel {
+    width: 60%;
+    height: 70vh;
+    margin: 7rem 25%;
+}
+
+.carrossel h2 {
+    color: white;
+    font-size: 4em;
+    margin: 0 33.333%;
+}
+
+.fotoRadius {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1000rem;
+    margin: 5% 40% auto;
+}
+
+.fotoRadius img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1000rem;
+
+}
+
+.nome {
+    color: white;
+    font-weight: bold;
+    margin: 3% 46% auto;
+}
+.lorem {
+    color: 808080;
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 1% 23.333%;
+}
