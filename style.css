@@ -49,10 +49,45 @@ body {
 }
 
 .home {
-    width: 100%;
+    width: 90%;
+    height: 100vh;
+    margin-left: 13.33%;
     display: flex;
+    background-image: url(/imgs/img_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
-
+.welcome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: brightness(50%);
+}
+.welcome h1{
+    font-size: 4rem;
+    color: white;
+}
+.welcome p{
+    color: f0f0f0;
+    width: 815px;
+    font-size: 1.3em;
+}
+.welcome a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    width: 10rem;
+    height: 3rem;
+    background-color: #df0e62;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
 .home img {
     width: 100%;
     height: 100vh;
@@ -60,7 +95,7 @@ body {
 
 .photos {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .linha {
@@ -86,7 +121,7 @@ body {
 }
 
 .fotos img:hover {
-    transition: ease-in-out 1s;
+    transition: ease-in 1s;
     transform: scale(1.1);
 }
 
@@ -99,7 +134,7 @@ body {
 .carrossel h2 {
     color: white;
     font-size: 4em;
-    margin: 0 33.333%;
+    margin: 0 33.13%;
 }
 
 .fotoRadius {
@@ -127,4 +162,10 @@ body {
     font-size: 1.5em;
     width: 50%;
     margin: 1% 23.333%;
+}
+.biografia{
+    height: 100rem;
+    width: 86.7%;
+    margin-left: 13.333%;
+    border: solid white 2px;
 }
