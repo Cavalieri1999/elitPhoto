@@ -172,43 +172,168 @@ body {
 }
 
 .biografia {
-    height: 100rem;
+    /* height: 130vh; */
     width: 86.7%;
     margin-left: 13.333%;
     background-color: #1a1a1a;
-    padding: 9rem 18rem;
+    padding-bottom: 7rem;
+
 }
 
 .biografia .titulo {
     color: white;
     font-size: 64px;
-    margin: 1rem 0 1rem 0;
+    margin: 9rem 18rem 0;
 }
 
 .biografia img {
     width: 377px;
     height: 377.5px;
+    margin: 2rem 18rem;
+
+
 }
-.biografia .textWhite{
+
+.biografia .textWhite {
     color: white;
-    margin: 1.5rem 0 0.5rem;
+    margin: 1.5rem 18rem 0.5rem;
     font-size: 2em;
 }
-.biografia p{
+
+.biografia p {
     width: 47rem;
     font-size: 1.2em;
     color: #808080;
-    margin: 1rem 0;
+    margin: 1rem 18rem;
 
 }
-.biografia a{
+
+.biografia a {
     color: #DF0E62;
 }
-.biografia h3{
+
+.biografia h3 {
     font-size: 28px;
     color: #fff;
+    margin: 1.5rem 18rem;
 }
-.biografia a:hover{
+
+.biografia a:hover {
     color: #96003c;
-    transition: ease-in 0.3s;
+    transition: ease-in 0.5s;
 }
+
+.verificacao {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    margin: 1rem 18rem;
+}
+
+.verificacao ul {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.verificacao li {
+    margin: 1rem;
+    color: #808080;
+    font-size: 1rem;
+}
+.blog{
+    width: 86.6%;
+    margin-left: 13.4%;
+    padding: 7rem 0;
+}
+.blogger{
+    /* border: solid white; */
+    width: 60%;
+    /* height: 120vh; */
+    margin: 0 20%;
+    padding-left: 1rem;
+}
+.tituloBlog{
+    color: white;
+    font-size: 4rem;
+}
+.tema{
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px #f6f6f6; */
+    height: 25vh;
+    width: 80%;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+.tema img{
+    width: 30%;
+    height: 22vh;
+    margin: 10px 0;
+}
+.textBlog{
+    /* background-color: #1a1a1a; */
+    height: 22vh;
+    width: 100%;
+    margin: 0.6rem 2rem;
+}
+.textBlog .tittleLink{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.textBlog .subtitulo{
+    color: #737373;
+    margin-bottom: 1rem;
+}
+.text{
+    color: #737373;
+    width: 28rem;
+}
+.subtitulo .data{
+    color: #DF0E62;
+}
+.subtitulo a:hover{
+    color: #ac0045;
+    transition: ease-out 0.5s;
+}
+.dark{
+    background-color: #DF0E62;
+    width: 100px;
+    height: 4px;
+}
+
+.numbers{
+    /* border: solid white; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4rem;
+    background-color: #000000;
+    margin-left: 1rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-decoration: none;
+    color: #808080;
+}
+.numbers a{
+    color: #DF0E62;
+}
+#pontos{
+    color: #808080;
+}
+.numbers a:hover{
+    background-color: #DF0E62;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+
+
