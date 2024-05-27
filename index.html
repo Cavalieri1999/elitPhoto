@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elit Photo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -203,19 +206,40 @@
         </div>
     </section>
     <section class="contato" id="sectionContact">
+        <div class="dark"></div>
         <div class="formulario">
             <h2>
                 CONTACT
             </h2>
             <form action="">
-                <div>
-                    <label for="name">First Name</label>
-                    <input type="text" id="name">
+                <div class="linhaForm">
+                    <div class="fname">
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" class="nomes">
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" class="nomes">
+                    </div>
+                </div>
+                <div class="inputSo">
+                    <label for="iemail">Email</label>
+                    <input type="email" id="iemail">
+                </div>
+                <div class="inputSo">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject">
+                </div>
+                <div class="textArea">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="7" placeholder="Write your notes or questions here..."></textarea>
                 </div>
             </form>
         </div>
     </section>
-
+    <footer>
+        <p>Copyright ©2024 All rights reserved | This template is made with  by Colorlib</p>
+    </footer>
 </body>
 
 </html>
