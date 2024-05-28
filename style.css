@@ -3,20 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
-
 main {
     display: flex;
     width: 100%;
 }
-
 body {
     /* width: 100%; */
     background-color: black;
 }
-
 .menu {
     width: 13.3%;
     height: 100vh;
@@ -24,18 +18,18 @@ body {
     padding: 2rem 0 0 1.5rem;
     position: fixed;
     margin: 0;
+    font-family: "Quicksand", sans-serif;
 }
-
 .menu a {
     color: white;
     list-style: none;
     text-decoration: none;
 }
-
 .logo {
     font-size: 2em;
     /* border: solid white; */
     width: 100%;
+    
 }
 
 .menu ul {
@@ -45,6 +39,7 @@ body {
 
 .menu li {
     margin-top: 1.2rem;
+    font-family: "Quicksand", sans-serif;
 }
 
 .menu a:hover {
@@ -76,12 +71,14 @@ body {
 .welcome h1 {
     font-size: 4rem;
     color: white;
+    font-family: "Oswald", sans-serif;
 }
 
 .welcome p {
-    color: f0f0f0;
+    color: #f0f0f0;
     width: 815px;
     font-size: 1.3em;
+    font-family: "Quicksand", sans-serif;
 }
 
 .welcome a {
@@ -145,6 +142,7 @@ body {
     color: white;
     font-size: 4em;
     margin: 0 33.13%;
+    font-family: "Oswald", sans-serif;
 }
 
 .fotoRadius {
@@ -162,17 +160,20 @@ body {
 }
 
 .nome {
+    width: 10%;
     color: white;
     font-weight: bold;
     margin: 3% 46% auto;
+    font-family: 'quicksand' "sans serif";
 }
 
 .lorem {
-    color: 808080;
+    color: #808080;
     text-align: center;
     font-size: 1.5em;
     width: 50%;
     margin: 1% 23.333%;
+    font-family: 'Quicksand', "sans serif";
 }
 
 .biografia {
@@ -188,6 +189,8 @@ body {
     color: white;
     font-size: 64px;
     margin: 9rem 18rem 0;
+  
+    font-family: "Oswald", sans-serif;
 }
 
 .biografia img {
@@ -202,6 +205,7 @@ body {
     color: white;
     margin: 1.5rem 18rem 0.5rem;
     font-size: 2em;
+    font-family: "Oswald", sans-serif;
 }
 
 .biografia p {
@@ -209,17 +213,20 @@ body {
     font-size: 1.2em;
     color: #808080;
     margin: 1rem 18rem;
+    font-family: 'Quicksand' "Sans Serif";
 
 }
 
 .biografia a {
     color: #DF0E62;
+    font-family: 'Quicksand' "Sans Serif";
 }
 
 .biografia h3 {
     font-size: 28px;
     color: #fff;
     margin: 1.5rem 18rem;
+    font-family: 'Oswald' "Sans Serif";
 }
 
 .biografia a:hover {
@@ -262,6 +269,7 @@ body {
 .tituloBlog {
     color: white;
     font-size: 4rem;
+    font-family: "Oswald", sans-serif;
 }
 
 .tema {
@@ -285,13 +293,17 @@ body {
     height: 22vh;
     width: 100%;
     margin: 0.6rem 2rem;
+    font-family: "Quicksand", sans-serif;
 }
 
 .textBlog .tittleLink {
     text-decoration: none;
     color: #fff;
     font-size: 1.3rem;
+    font-family: "Oswald", sans-serif;
 }
+
+
 
 .textBlog .subtitulo {
     color: #737373;
@@ -301,6 +313,10 @@ body {
 .text {
     color: #737373;
     width: 28rem;
+}
+.subtitulo{
+    color: #737373;
+    font-family: "Oswald", sans-serif;
 }
 
 .subtitulo .data {
@@ -372,10 +388,14 @@ body {
     color: white;
     font-size: 4em;
     padding-bottom: 2rem;
+    font-family: "Oswald", sans-serif;
 }
+
 
 form label {
     color: white;
+    font-family: "Quicksand", sans-serif;
+    margin: 0 0.5rem;
 }
 
 form div {
@@ -402,11 +422,6 @@ form input {
     font-size: 1em;
 
 }
-
-form label {
-    margin: 0 0.5rem;
-}
-
 .linhaForm {
     display: flex;
     flex-direction: row;
@@ -463,6 +478,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Quicksand", sans-serif;
 }
 
 footer p {
