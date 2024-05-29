@@ -182,12 +182,10 @@ body {
 }
 
 .biografia {
-    /* height: 130vh; */
     width: 86.7%;
     margin-left: 13.333%;
     background-color: #1a1a1a;
     padding-bottom: 7rem;
-
 }
 
 .biografia .titulo {
@@ -420,7 +418,7 @@ form {
     flex-direction: column;
 }
 
-form input {
+.inputsText input {
     border: none;
     outline: none;
     border-bottom: 2px solid #808080;
@@ -464,7 +462,7 @@ textarea {
     width: 100%;
 }
 
-input:focus {
+.inputsText input:focus {
     border-color: white;
 }
 
@@ -498,6 +496,7 @@ footer p {
 }
 .textArea{
     width: 100%;
+    padding-bottom: 2rem;
 }
 .textFont{
     font-family: "Quicksand", sans-serif;
@@ -507,4 +506,49 @@ footer p {
 }
 .menu p{
     color: white;
+}
+.inputsText{
+    width: 100%;
+}
+.submit{
+    background-color: #DF0E62;
+    border-radius: 2rem;
+    width: 11.38rem;
+    height: 3.31rem;
+    color: white;
+    font-family: "Quicksand", sans-serif;;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    transition: ease-in-out 0.5s;
+
+}
+.submit:hover{
+    background-color: #ac0749;
+    
+}
+.icons{
+    /* border: solid white; */
+    display: flex;
+}
+svg{
+    /* height: 1.5em;
+    width: 10px; */
+    color: white;
+    margin: 0 1em;
+}
+.face{
+    width: 0.7rem;
+}
+.twitter{
+    width: 1.2rem;
+}
+.insta{
+    width: 1.1rem;
+}
+.linhaVerif{
+    display: flex;
+}
+.linhaVerif svg{
+    width: 1rem;
 }
