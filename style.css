@@ -217,9 +217,11 @@ body {
     font-size: 2em;
     font-family: "Oswald", sans-serif;
 }
-.biografia .textWhiteDois{
+
+.biografia .textWhiteDois {
     font-family: "Oswald", sans-serif;
 }
+
 .biografia p {
     width: 47rem;
     font-size: 1.2em;
@@ -550,15 +552,17 @@ footer p {
 }
 
 .icons {
-    /* border: solid white; */
     display: flex;
 }
 
-svg {
-    /* height: 1.5em;
-    width: 10px; */
-    color: white;
+
+.icons svg {
     margin: 0 1em;
+    transition: 1s;
+}
+
+.icons svg :hover {
+    fill: #96003c;
 }
 
 .face {
@@ -580,17 +584,19 @@ svg {
 .linhaVerif svg {
     width: 1rem;
 }
-.icons a:hover{
+
+.icons a:hover {
     color: #df0e62;
 }
-.fotos svg{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   height: 50px;
-   height: 50%;
-   transform: translate(-50% -50%);
-   opacity: 0;
-   transition: 1s;
-   fill: white;
+
+.fotos svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    height: 50%;
+    transform: translate(-50% -50%);
+    opacity: 0;
+    transition: 1s;
+    fill: rgb(255, 255, 255);
 }
