@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 main {
     display: flex;
     width: 100%;
 }
+
 body {
     /* width: 100%; */
     background-color: black;
 }
+
 .menu {
     width: 13.3%;
     height: 100vh;
@@ -20,16 +23,18 @@ body {
     margin: 0;
     font-family: "Quicksand", sans-serif;
 }
+
 .menu a {
     color: white;
     list-style: none;
     text-decoration: none;
 }
+
 .logo {
     font-size: 2em;
     /* border: solid white; */
     width: 100%;
-    
+
 }
 
 .menu ul {
@@ -128,9 +133,11 @@ body {
 
 
 }
-.fotos:hover{
+
+.fotos:hover {
     filter: brightness(50%);
 }
+
 .fotos img:hover {
     transform: scale(1.1);
     filter: brightness(100%);
@@ -192,7 +199,7 @@ body {
     color: white;
     font-size: 64px;
     margin: 9rem 18rem 0;
-  
+
     font-family: "Oswald", sans-serif;
 }
 
@@ -210,7 +217,9 @@ body {
     font-size: 2em;
     font-family: "Oswald", sans-serif;
 }
-
+.biografia .textWhiteDois{
+    font-family: "Oswald", sans-serif;
+}
 .biografia p {
     width: 47rem;
     font-size: 1.2em;
@@ -219,9 +228,11 @@ body {
     font-family: "Quicksand", sans-serif;
 
 }
-.tempore{
+
+.tempore {
     font-family: "Quicksand", sans-serif;
 }
+
 .biografia a {
     color: #DF0E62;
     font-family: "Quicksand", sans-serif;
@@ -320,7 +331,8 @@ body {
     color: #737373;
     width: 28rem;
 }
-.subtitulo{
+
+.subtitulo {
     color: #737373;
     font-family: "Oswald", sans-serif;
 }
@@ -430,6 +442,7 @@ form {
     font-family: "Quicksand", sans-serif;
 
 }
+
 .linhaForm {
     display: flex;
     flex-direction: row;
@@ -494,61 +507,90 @@ footer p {
     color: #808080;
 
 }
-.textArea{
+
+.textArea {
     width: 100%;
     padding-bottom: 2rem;
 }
-.textFont{
+
+.textFont {
     font-family: "Quicksand", sans-serif;
 }
-.tittleFont{
+
+.tittleFont {
     font-family: "Oswald", sans-serif;
 }
-.menu p{
+
+.menu p {
     color: white;
 }
-.inputsText{
+
+.inputsText {
     width: 100%;
 }
-.submit{
+
+.submit {
     background-color: #DF0E62;
     border-radius: 2rem;
     width: 11.38rem;
     height: 3.31rem;
     color: white;
-    font-family: "Quicksand", sans-serif;;
+    font-family: "Quicksand", sans-serif;
+    ;
     font-size: 1em;
     font-weight: bold;
     border: none;
     transition: ease-in-out 0.5s;
 
 }
-.submit:hover{
+
+.submit:hover {
     background-color: #ac0749;
-    
+
 }
-.icons{
+
+.icons {
     /* border: solid white; */
     display: flex;
 }
-svg{
+
+svg {
     /* height: 1.5em;
     width: 10px; */
     color: white;
     margin: 0 1em;
 }
-.face{
+
+.face {
     width: 0.7rem;
 }
-.twitter{
+
+.twitter {
     width: 1.2rem;
 }
-.insta{
+
+.insta {
     width: 1.1rem;
 }
-.linhaVerif{
+
+.linhaVerif {
     display: flex;
 }
-.linhaVerif svg{
+
+.linhaVerif svg {
     width: 1rem;
+}
+.icons a:hover{
+    color: #df0e62;
+}
+.fotos svg{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   height: 50px;
+   height: 50%;
+   transform: translate(-50% -50%);
+   opacity: 0;
+   transition: 1s;
+   fill: white;
 }
