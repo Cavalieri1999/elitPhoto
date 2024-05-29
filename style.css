@@ -123,15 +123,12 @@ body {
     height: 100%;
     margin: 3px;
     overflow: hidden;
-
 }
 
 .fotos img {
     height: 100%;
     width: 100%;
     transition: ease-in 0.6s;
-
-
 }
 
 .fotos:hover {
@@ -294,7 +291,6 @@ body {
 .tema {
     display: flex;
     flex-direction: row;
-    /* border: solid 1px #f6f6f6; */
     height: 25vh;
     width: 80%;
     margin-top: 2rem;
@@ -308,7 +304,6 @@ body {
 }
 
 .textBlog {
-    /* background-color: #1a1a1a; */
     height: 22vh;
     width: 100%;
     margin: 0.6rem 2rem;
@@ -321,8 +316,6 @@ body {
     font-size: 1.3rem;
     font-family: "Oswald", sans-serif;
 }
-
-
 
 .textBlog .subtitulo {
     color: #737373;
