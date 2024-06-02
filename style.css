@@ -109,6 +109,7 @@ body {
 }
 
 .linha {
+    transition: ease-in-out 1s;
     width: 86.7%;
     height: 320px;
     margin-left: 13.288%;
@@ -177,8 +178,10 @@ body {
     color: #808080;
     text-align: center;
     font-size: 1.5em;
-    width: 50%;
-    margin: 1% 23.333%;
+    width: 100%;
+    /* border: solid; */
+    padding: 0 15%;
+    /* margin: 1% 23.333%; */
     font-family: "Quicksand", sans-serif;
 }
 .biografia {
