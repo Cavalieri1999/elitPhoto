@@ -579,16 +579,15 @@ footer p {
 
 .fotos svg {
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 50%;
     height: 20px;
-
     transform: translate(-50% -50%);
     opacity: 0;
-    
     fill: rgb(255, 255, 255);
+    transition: 0.5s;
 }
 .fotos:hover svg {
-    opacity: 9;
+    opacity: 1;
     top: 50%;
 }
